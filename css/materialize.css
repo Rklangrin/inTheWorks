@@ -4525,6 +4525,10 @@ small {
   overflow: hidden;
 }
 
+div.card-content > a {
+  color: #4F3276;
+}
+
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
   position: absolute;
   bottom: 0;

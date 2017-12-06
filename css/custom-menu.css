@@ -38,7 +38,7 @@
 	display: inline-block;
 }
 .header-section ul.main-menu>li>a {
-  color: #525252;
+  color: #4F3276;
   display: block;
   cursor: pointer;
   font-size: 14px;
@@ -48,7 +48,7 @@
 }
 .header-section ul.main-menu>li>a:hover,
 .header-section ul.main-menu>li.active>a {
-  color: #000;
+  color: #D4AA02;
 }
 .header-section ul.main-menu>li.active {background-color: transparent;}
 .header-section ul.main-menu>li>a>i {
@@ -91,7 +91,7 @@ nav .button-collapse {
 	left: 15px;
 	z-index: 1;
 	float: left;
-	color: #000;
+	color: #D4AA02;
 	width: 50px;
 	height: 50px;
 	font-size: 24px;
@@ -100,7 +100,7 @@ nav .button-collapse {
 	position: absolute;
 	text-align: center;
 	border-radius: 100%;
-	background-color: #fff;
+	background-color: #4F3276;
 	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.14);
 }
 .snavlogo {
@@ -113,10 +113,10 @@ nav .button-collapse {
 }
 .side-nav {
 	z-index: 1001;
-	background-color: #2962ff;
+	background-color: #4F3276;
 }
 .side-nav > li a {
-	color: #fff;
+	color: #D4AA02;
 }
 .side-nav li.active {
 	background-color: rgba(0, 0, 0, 0.09);
@@ -136,7 +136,7 @@ nav .button-collapse {
 	height: auto;
 	padding: 10px 0px;
 	background-color: #fff;
-	border-top: 2px solid #000;
+	border-top: 2px solid #fff;
 	transform-origin: center top 0;
 	box-shadow: 0 0 2px 2px rgba(222, 222, 222, 0.5);
 	transform: scaleY(0);
@@ -168,13 +168,13 @@ ul.dropdown-container:after {
 }
 .header-section ul.main-menu>li.dropdown > ul.dropdown-container>li>a {
 	margin: 0;
-  color: #000;
+  color: #4F3276;
   line-height: 20px;
   padding: 10px 15px;
 }
 .header-section ul.main-menu>li.dropdown > ul.dropdown-container>li>a:hover {
-	color: #fff;
-	background-color: #000;
+	color: #4F3276;
+	background-color: #D4AA02;
 }
 
 
@@ -196,6 +196,8 @@ ul.dropdown-container:after {
 	border-radius: 100%;
 	background-color: #fff;
 	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.14);
+
+	
 }
 .overlay {
 	height: 0%;
